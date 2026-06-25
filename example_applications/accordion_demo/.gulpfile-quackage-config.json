@@ -1,0 +1,8 @@
+{
+    "EntrypointInputSourceFile": "/Users/steven/Code/retold/modules/pict/pict-section-accordion/example_applications/accordion_demo/source/Pict-Application-AccordionDemo.js",
+    "LibraryObjectName": "AccordionDemo",
+    "LibraryOutputFolder": "/Users/steven/Code/retold/modules/pict/pict-section-accordion/example_applications/accordion_demo/dist/",
+    "LibraryUniminifiedFileName": "accordion_demo.compatible.js",
+    "LibraryMinifiedFileName": "accordion_demo.compatible.min.js",
+    "BrowserifyIgnore": []
+}

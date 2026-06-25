@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Accordion Demo - pict-section-accordion</title>
+		<link rel="stylesheet" href="./css/accordion-demo.css" />
+		<style id="PICT-CSS"></style>
+		<script src="./js/pict.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+//<![CDATA[
+		Pict.safeOnDocumentReady(() => { Pict.safeLoadPictApplication(AccordionDemo, 2); });
+//]]>
+		</script>
+	</head>
+	<body>
+		<div class="demo-wrap">
+			<h1>pict-section-accordion</h1>
+			<p class="demo-sub">One step set, three render modes — accordion, wizard (with a gate), and stepper.</p>
+
+			<div class="demo-col">
+				<h2>Accordion <span class="demo-tag">collapsible panels</span></h2>
+				<div id="DemoAccordion"></div>
+			</div>
+
+			<div class="demo-col">
+				<h2>Wizard <span class="demo-tag">back / next · gated step 1</span></h2>
+				<div id="DemoWizard"></div>
+				<div id="WizardReadout" class="demo-value"></div>
+			</div>
+
+			<div class="demo-col">
+				<h2>Stepper <span class="demo-tag">numbered rail · externally controlled</span></h2>
+				<div id="DemoStepper"></div>
+				<div class="demo-btns">
+					<button type="button" class="demo-btn" onclick="_Pict.PictApplication.completeStep('options')">Complete “Options”</button>
+					<button type="button" class="demo-btn" onclick="_Pict.PictApplication.errorStep('review')">Error “Review”</button>
+					<button type="button" class="demo-btn" onclick="_Pict.PictApplication.toggleEnabled('review')">Toggle “Review” enabled</button>
+					<button type="button" class="demo-btn" onclick="_Pict.PictApplication.goStep('details')">Go to “Details”</button>
+				</div>
+				<div id="StateReadout" class="demo-value"></div>
+			</div>
+		</div>
+		<script src="./accordion_demo.compatible.min.js" type="text/javascript"></script>
+	</body>
+</html>

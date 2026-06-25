@@ -1,0 +1,8 @@
+{
+    "EntrypointInputSourceFile": "/Users/steven/Code/retold/modules/pict/pict-section-accordion/source/Pict-Section-Accordion.js",
+    "LibraryObjectName": "PictSectionAccordion",
+    "LibraryOutputFolder": "/Users/steven/Code/retold/modules/pict/pict-section-accordion/dist/",
+    "LibraryUniminifiedFileName": "pict-section-accordion.compatible.js",
+    "LibraryMinifiedFileName": "pict-section-accordion.compatible.min.js",
+    "BrowserifyIgnore": []
+}
