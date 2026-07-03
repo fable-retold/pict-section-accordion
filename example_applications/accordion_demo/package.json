@@ -21,8 +21,25 @@
 		"whenFileExists": "overwrite"
 	},
 	"copyFiles": [
-		{ "from": "./html/*", "to": "./dist/" },
-		{ "from": "./css/**", "to": "./dist/css/" },
-		{ "from": "./node_modules/pict/dist/*", "to": "./dist/js/" }
-	]
+		{
+			"from": "./html/*",
+			"to": "./dist/"
+		},
+		{
+			"from": "./css/**",
+			"to": "./dist/css/"
+		},
+		{
+			"from": "./node_modules/pict/dist/*",
+			"to": "./dist/js/"
+		}
+	],
+	"retold": {
+		"ExampleApplication": {
+			"Stage": true,
+			"Title": "Accordion / Wizard / Stepper",
+			"Summary": "pict-section-accordion: the same step set in all three render modes, with a gated wizard step + external controls.",
+			"Complexity": "Basic"
+		}
+	}
 }
